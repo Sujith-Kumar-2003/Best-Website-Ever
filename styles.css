@@ -7,6 +7,15 @@ h1{
   height: 100%;
 } */
 
+
+.gif-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vh; 
+  padding-bottom: 20px;
+}
+
 body {
   font-family: 'FranklinGothic URW', sans-serif;
   background-color: darkgrey;
@@ -14,17 +23,9 @@ body {
   font-size:50px;
 }
 
-/* #footer1 {
-    width: fit-content;
-    margin: 0 auto;
-    text-align: center;
-    padding: 10px;
-    background-color: black;
-    color:red;
-  } */
-
 #footer1 {
   display: block;
+  padding-top:20px;
   position: relative;
   width: 100%;
   background-color: #da3900;
