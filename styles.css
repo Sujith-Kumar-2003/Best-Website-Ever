@@ -3,9 +3,7 @@ h1{
     font-size: 50px;
     text-align: center;
 }
-/* html, body {
-  height: 100%;
-} */
+
 
 
 .gif-content {
@@ -34,6 +32,7 @@ body {
   color: white;
   font-size: 16px; /* smaller text helps reduce size */
 }
+
 
   .wrapper {
   min-height: 100%;
@@ -73,14 +72,39 @@ body {
       color:red;
     }
 
+    .dashboard-links {
+  display: flex;
+  flex-wrap: wrap;           /* allows links to wrap onto next line */
+  align-items: center;
+  gap: 10px;                 /* consistent spacing between links */
+}
+
 .dashboard-links a {
   color: red;
-  margin-left: 20px;
   text-decoration: none;
   font-size: 16px;
 }
 
+
 .dashboard-links a:hover {
-  text-decoration: underline;
+  text-shadow: 0 0 5px red;
+  color: red;
+}
+
+  /* text-shadow: 0 0 5px red, 0 0 20px white; */
+
+.links{
+    color:blanchedalmond;
+}
+
+.glow-red {
+  box-shadow: 0 0 10px red;
+  text-shadow: 0 0 10px red;
+  color: red;
+}
+
+.glow-blue {
+  box-shadow: 0 0 10px blue;
+  text-shadow: 0 0 10px blue;
   color: blue;
 }
