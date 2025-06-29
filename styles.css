@@ -1,7 +1,26 @@
+html {
+  scroll-behavior: smooth;
+}
+
 h1{
     color:red;
-    font-size: 50px;
+    font-size: 20px;
     text-align: center;
+}
+
+#Projects > h1{
+  font-size : 30px;
+  text-align: left;
+}
+
+#Projects > h2{
+  font-size : 20px;
+  text-align: left;
+}
+
+#Projects > p{
+  font-size : 15px;
+  text-align: left;
 }
 
 
