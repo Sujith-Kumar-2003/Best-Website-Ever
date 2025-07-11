@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Real moments that hit me hard</title>
+<style>
+  @keyframes flicker {
+    0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+      text-shadow:
+        0 0 5px #ff1a1a,
+        0 0 10px #ff1a1a,
+        0 0 20px #ff4d4d,
+        0 0 40px #ff4d4d,
+        0 0 80px #ff9999;
+      opacity: 1;
+    }
+    20%, 22%, 24%, 55% {
+      text-shadow: none;
+      opacity: 0.85;
+    }
+  }
+
+  body {
+    background-color: #000;
+    color: #ff1a1a;
+    text-align: center;
+    font-family: 'Arial Black', Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+
+  ol {
+    list-style: none;
+    padding-left: 0;
+    max-width: 850px;
+    margin: 0 auto;
+  }
+
+  li {
+    margin-bottom: 50px;
+    border: 2px solid #ff1a1a;
+    border-radius: 12px;
+    padding: 10px;
+    background: #111;
+    box-shadow:
+      0 0 10px #ff1a1a,
+      0 0 20px #ff3300;
+    transition: box-shadow 0.3s ease;
+  }
+
+  li:hover {
+    box-shadow:
+      0 0 20px #ff3300,
+      0 0 40px #ff6600;
+    animation: flicker 2s infinite;
+  }
+
+  iframe {
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 3px solid #ff3300;
+    box-shadow:
+      0 0 12px #ff3300,
+      0 0 24px #ff3300,
+      0 0 40px #ff6600;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+    width: 100%;
+    max-width: 850px;
+    height: 500px;
+  }
+
+  iframe:hover {
+    box-shadow:
+      0 0 20px #ff6600,
+      0 0 40px #ff6600,
+      0 0 60px #ff9933;
+    transform: scale(1.03);
+    animation: flicker 2s infinite;
+  }
+
+  .quote {
+    color: #ff4d4d;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    margin-top: 12px;
+    max-width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 8px 15px;
+    border: 2px solid #ff1a1a;
+    border-radius: 10px;
+    background: #111;
+    box-shadow:
+      0 0 15px #ff3300,
+      0 0 40px #ff3300;
+    text-shadow: 0 0 5px #ff3300;
+    animation: flicker 3s infinite;
+    user-select: none;
+  }
+</style>
+</head>
+<body>
+
+<ol>
+  <li>
+    <iframe src="https://www.youtube.com/embed/It4EvPP2VmA?si=Q1qqudrcbDwL44p5" title="TED speech on love" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <div class="quote">
+      Morty, love ain't some magic potion — it’s neurochemistry mixed with chaos. But man, that TED talk hits right in the feels.
+    </div>
+  </li>
+  <li>
+    <iframe src="https://www.youtube.com/embed/5uFAkizQNJI?si=l_H7jFAwHTWlF8PP" title="Alcaraz vs Djokovic Wimbledon Final" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <div class="quote">
+      Dude, watching Alcaraz and Djokovic battle like titans makes me wanna drop everything and smash reality’s face.
+    </div>
+  </li>
+  <li>
+    <iframe src="https://www.youtube.com/embed/bhk-yqnGlpM?si=2Cau-m4OEkgg6z33&amp;start=210" title="505 by Arctic Monkeys - girl cries" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <div class="quote">
+      505 plays, and here comes the tears — Arctic Monkeys got that sad jam that cuts deeper than a portal gun blast.
+    </div>
+  </li>
+  <li>
+    <iframe src="https://www.youtube.com/embed/HgAL4L1sXtg?si=5tK3CUwB171LOb2f&amp;" title="Rick’s take on love: it's just science" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <div class="quote">
+      Rick sez: Love? Just science, Morty. Chemistry, biology... stop romanticizing the inevitable entropy.
+    </div>
+  </li>
+  <li>
+    <iframe src="https://www.youtube.com/embed/G3wC3xvxTx0?si=REJrDOwFpxXbkl-a" title="Jules and Nate meet - Euphoria love scene" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <div class="quote">
+      Jules and Nate at the park — pure raw vibes. Sometimes love’s just a scene playing out in the infinite multiverse.
+    </div>
+  </li>
+</ol>
+
+</body>
+</html>
